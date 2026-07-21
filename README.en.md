@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="bilibili-suite-banner.png" width="100%" alt="Bilibili Suite" />
+  <img src="bilibili-suite-cover.png" width="100%" alt="Bilibili Suite" />
 
   <p>
     <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/download-Gitee%20Releases-6C5CE7?style=flat-square" alt="Gitee Releases" /></a>

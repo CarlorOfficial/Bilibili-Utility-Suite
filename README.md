@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="bilibili-suite-banner.png" width="100%" alt="B站综合插件" />
+  <img src="bilibili-suite-cover.png" width="100%" alt="B站综合插件" />
 
   <p>
     <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/下载-Gitee%20Releases-6C5CE7?style=flat-square" alt="Gitee Releases" /></a>
