@@ -2,7 +2,7 @@
   <img src="bilibili-suite-hero.png" width="100%" alt="B站综合插件" />
 
   <p>
-    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/当前版本-1.0.5-6C5CE7?style=flat-square" alt="当前版本 1.0.5" /></a>
+    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/下载-Gitee%20Releases-6C5CE7?style=flat-square" alt="Gitee Releases" /></a>
     <img src="https://img.shields.io/badge/平台-Windows%20%7C%20Linux-2684FF?style=flat-square" alt="Windows 与 Linux" />
     <img src="https://img.shields.io/badge/架构-x86__64-00A884?style=flat-square" alt="x86_64" />
     <img src="https://img.shields.io/badge/消息-文字%20%2B%20图片-F59E0B?style=flat-square" alt="文字与图片消息" />
@@ -39,7 +39,7 @@ B站综合插件通过萌卡 NT 的正向 WebSocket 接收机器人事件，为�
 | 消息展示 | 全局或按群切换文字/图片模式，本地渲染动态、视频和直播卡片 |
 | B站登录 | 每位 QQ 用户独立扫码登录，凭据与订阅数据互不串用 |
 | 特殊订阅 | 支持通过 Bark 向 iOS 设备推送动态与直播提醒 |
-| 可视化管理 | 框架连接、账号授权、插件主人、群功能开关、运行日志与在线更新 |
+| 可视化管理 | 框架连接、账号授权、插件主人、群功能开关、自定义消息模板、运行日志与在线更新 |
 
 聊天中发送 `哔哩菜单` 即可查看当前版本提供的指令入口。
 
@@ -135,7 +135,7 @@ systemctl restart bilibili-suite
 2. 保存并启动连接，等待框架识别机器人 QQ；
 3. 在“插件主人”填写主人 QQ，多个号码使用 `#` 分隔；
 4. 在“账号管理”确认各 QQ 的授权状态和到期时间；
-5. 按机器人 QQ 和群号进入“功能配置”设置消息模式与功能开关；
+5. 按机器人 QQ 和群号进入“插件配置”设置消息模式、功能开关与自定义消息模板；
 6. 需要查询、订阅或解析 B站内容时，先在聊天中发送 `扫码登录账号` 完成独立登录。
 
 ## WebUI
@@ -144,12 +144,22 @@ WebUI 同时适用于 Windows 与 Linux，主要页面包括：
 
 - **仪表盘**：框架连接、机器人数量、授权数量和运行状态；
 - **账号管理**：查看每个 QQ 的独立授权状态与有效期；
-- **功能配置**：按 QQ、按群配置解析、消息模式和通知开关；
+- **插件配置**：按 QQ、按群配置解析、消息模式、通知开关和自定义消息模板；
 - **框架连接**：保存、启动、暂停或修改 WebSocket 配置；
 - **插件主人**：支持多个主人 QQ，并可在框架离线时独立保存；
 - **运行日志**：查看收到的消息、命令匹配、授权与发送结果，敏感字段自动脱敏；
 - **右上角账户菜单**：查看管理员资料、刷新授权状态或安全退出 WebUI；
 - **在线更新**：只提示更高版本，同版本会显示“当前已是最新版本”。
+
+### 自定义消息模板
+
+“插件配置 → 自定义模板”内置 18 套模板，覆盖直播开播/下播与总结、直播事件、动态与视频、番剧更新、用户与直播间查询、装扮和收藏集查询。模板支持：
+
+- 当前机器人 QQ 的全局模板；
+- 当前机器人 QQ 下的指定群覆盖；
+- 点击插入 `【变量】`、变量白名单校验、恢复内置默认；
+- 图片变量继续作为真实图片消息发送，不会转换为 Markdown 或图片链接；
+- 配置与机器人数据空间一起加密保存，不同 QQ 之间不会串用。
 
 ## 图片消息与远程部署
 
@@ -213,7 +223,6 @@ WebUI 右上角可以检查 Gitee 最新 Release：
 
 ## 版本与反馈
 
-- 当前发行版：**1.0.5**
 - 更新记录与下载：[Gitee Releases](https://gitee.com/carlor-official/BilibiliSuite/releases)
 - Bug 与建议：[提交 Issue](https://gitee.com/carlor-official/BilibiliSuite/issues)
 
