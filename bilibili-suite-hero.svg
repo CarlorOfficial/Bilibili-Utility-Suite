@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">B站综合插件</title>
+  <desc id="description">萌卡 NT 的跨平台 Bilibili 综合功能插件，支持 Windows、Linux 与 WebUI。</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#171A34"/>
+      <stop offset="0.52" stop-color="#292653"/>
+      <stop offset="1" stop-color="#4B3F80"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6D8BFF"/>
+      <stop offset="1" stop-color="#9B6BFF"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7EA2FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#C48EFF" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="blur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <circle cx="1080" cy="52" r="190" fill="#8067EF" opacity="0.16"/>
+  <circle cx="1120" cy="325" r="235" fill="#2E8DFF" opacity="0.12"/>
+  <circle cx="148" cy="310" r="150" fill="url(#glow)" filter="url(#blur)"/>
+
+  <g opacity="0.24" fill="none" stroke="#B7C5FF">
+    <path d="M900 45h218a22 22 0 0 1 22 22v122"/>
+    <path d="M946 79h130a20 20 0 0 1 20 20v90"/>
+    <circle cx="1140" cy="211" r="4" fill="#B7C5FF" stroke="none"/>
+    <circle cx="1096" cy="211" r="4" fill="#B7C5FF" stroke="none"/>
+  </g>
+
+  <g transform="translate(76 67)">
+    <rect width="90" height="90" rx="25" fill="url(#brand)"/>
+    <path d="M26 31c0-7 5-12 12-12h14c7 0 12 5 12 12 0 5-2 8-6 11 6 3 9 8 9 14 0 10-7 16-18 16H38c-7 0-12-5-12-12V31zm17 3v10h8c4 0 6-2 6-5s-2-5-6-5h-8zm0 24h9c5 0 7-2 7-6s-2-6-7-6h-9v12z" fill="#FFF"/>
+  </g>
+
+  <text x="194" y="112" fill="#FFFFFF" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="44" font-weight="700">B站综合插件</text>
+  <text x="197" y="154" fill="#BFC8E8" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="19">萌卡 NT · 跨平台 Bilibili 功能套件</text>
+
+  <g transform="translate(76 208)" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="15">
+    <g>
+      <rect width="142" height="44" rx="14" fill="#FFFFFF" opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.17"/>
+      <circle cx="23" cy="22" r="5" fill="#75A7FF"/>
+      <text x="38" y="28" fill="#F3F5FF">Windows x64</text>
+    </g>
+    <g transform="translate(156)">
+      <rect width="136" height="44" rx="14" fill="#FFFFFF" opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.17"/>
+      <circle cx="23" cy="22" r="5" fill="#5ED6A0"/>
+      <text x="38" y="28" fill="#F3F5FF">Linux x86_64</text>
+    </g>
+    <g transform="translate(306)">
+      <rect width="116" height="44" rx="14" fill="#FFFFFF" opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.17"/>
+      <circle cx="23" cy="22" r="5" fill="#B492FF"/>
+      <text x="38" y="28" fill="#F3F5FF">WebUI</text>
+    </g>
+    <g transform="translate(436)">
+      <rect width="148" height="44" rx="14" fill="#FFFFFF" opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.17"/>
+      <circle cx="23" cy="22" r="5" fill="#FFC467"/>
+      <text x="38" y="28" fill="#F3F5FF">文字 + 图片</text>
+    </g>
+  </g>
+
+  <g transform="translate(934 228)">
+    <rect width="188" height="70" rx="20" fill="#FFFFFF" opacity="0.10" stroke="#FFFFFF" stroke-opacity="0.18"/>
+    <text x="24" y="29" fill="#BFC8E8" font-family="Arial, sans-serif" font-size="13" letter-spacing="1.5">CURRENT RELEASE</text>
+    <text x="24" y="55" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="25" font-weight="700">v1.0.5</text>
+  </g>
+</svg>
