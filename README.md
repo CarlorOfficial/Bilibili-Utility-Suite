@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="bilibili-suite-hero.svg" width="100%" alt="B站综合插件" />
+  <img src="bilibili-suite-hero.png" width="100%" alt="B站综合插件" />
 
   <p>
     <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/当前版本-1.0.5-6C5CE7?style=flat-square" alt="当前版本 1.0.5" /></a>
