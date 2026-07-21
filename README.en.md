@@ -2,7 +2,7 @@
   <img src="bilibili-suite-hero.png" width="100%" alt="Bilibili Suite" />
 
   <p>
-    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/version-1.0.5-6C5CE7?style=flat-square" alt="Version 1.0.5" /></a>
+    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/download-Gitee%20Releases-6C5CE7?style=flat-square" alt="Gitee Releases" /></a>
     <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2684FF?style=flat-square" alt="Windows and Linux" />
     <img src="https://img.shields.io/badge/architecture-x86__64-00A884?style=flat-square" alt="x86_64" />
   </p>
@@ -29,7 +29,7 @@ Windows and Linux share the same browser-based administration UI. The plugin sen
 - Plain-text and locally rendered image-card modes
 - Independent Bilibili QR login, authorization, credentials, subscriptions, and data for every QQ account
 - Bark notifications for iOS
-- WebUI configuration, runtime logs, and signed online updates
+- Per-bot and per-group WebUI configuration, 18 customizable message templates, runtime logs, and signed online updates
 
 Send `哔哩菜单` in chat to open the command menu.
 
@@ -51,6 +51,10 @@ Windows and Linux packages are not interchangeable.
 5. Add plugin-owner QQ numbers, verify each bot's authorization status, and configure features per bot and group.
 6. Send `扫码登录账号` in chat to complete an independent Bilibili QR login before using queries and subscriptions.
 
+## Custom Message Templates
+
+The WebUI provides 18 templates for live notifications and summaries, live events, dynamics and videos, bangumi updates, profile and live-room queries, decorations, and collections. Each bot has an independent global template set, while individual groups may override it. Variables are validated against a per-template allowlist, image variables remain real image messages, and no Markdown is generated.
+
 ## Isolation and Reliability
 
 - Every bot QQ has independent authorization, heartbeat, storage, credentials, and subscriptions.
@@ -69,7 +73,6 @@ Release packages contain signed binaries, runtime libraries, and documentation o
 
 ## Support
 
-- Current release: **1.0.5**
 - Downloads and changelog: [Releases](https://gitee.com/carlor-official/BilibiliSuite/releases)
 - Bug reports and suggestions: [Issues](https://gitee.com/carlor-official/BilibiliSuite/issues)
 
