@@ -224,6 +224,7 @@ WebUI 右上角可以检查 Gitee 最新 Release：
 ## 版本与反馈
 
 - 更新记录与下载：[Gitee Releases](https://gitee.com/carlor-official/BilibiliSuite/releases)
+- 历史更新日志与后续发布格式：[发行说明规范](docs/release-notes/README.md)
 - Bug 与建议：[提交 Issue](https://gitee.com/carlor-official/BilibiliSuite/issues)
 
 本仓库当前不提供插件核心源码或开源许可。请仅从本仓库 Release 获取正式外发包。
