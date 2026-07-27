@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="bilibili-suite-cover.png" width="100%" alt="Bilibili Utility Suite" />
+  <img src="bilibili-suite-cover.png" width="100%" alt="B站综合插件" />
 
   <p>
     <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest"><img src="https://img.shields.io/badge/download-GitHub%20Releases-6C5CE7?style=flat-square" alt="GitHub Releases" /></a>
@@ -7,7 +7,8 @@
     <img src="https://img.shields.io/badge/architecture-x86__64-00A884?style=flat-square" alt="x86_64" />
   </p>
 
-  <p><strong>Bilibili Utility Suite</strong></p>
+  <p><strong>B站综合插件</strong></p>
+  <p>Bilibili Utility Suite</p>
   <p>A cross-platform Bilibili feature suite for MoeCard NT</p>
   <p><a href="README.md">简体中文</a> · <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest">Download</a> · <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/issues">Issues</a></p>
 </div>
@@ -16,7 +17,7 @@
 
 ## Overview
 
-Bilibili Utility Suite connects to MoeCard NT through a forward WebSocket service and provides Bilibili queries, subscriptions, link parsing, notifications, and locally rendered image cards for group and private chats.
+B站综合插件 (Bilibili Utility Suite) connects to MoeCard NT through a forward WebSocket service and provides Bilibili queries, subscriptions, link parsing, notifications, and locally rendered image cards for group and private chats.
 
 Windows and Linux share the same browser-based administration UI. The plugin sends plain text and image messages only and does not depend on Markdown support.
 

@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="bilibili-suite-cover.png" width="100%" alt="Bilibili Utility Suite（B站综合插件）" />
+  <img src="bilibili-suite-cover.png" width="100%" alt="B站综合插件" />
 
   <p>
     <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest"><img src="https://img.shields.io/badge/下载-GitHub%20Releases-6C5CE7?style=flat-square" alt="GitHub Releases" /></a>
@@ -8,7 +8,8 @@
     <img src="https://img.shields.io/badge/消息-文字%20%2B%20图片-F59E0B?style=flat-square" alt="文字与图片消息" />
   </p>
 
-  <p><strong>Bilibili Utility Suite（B站综合插件）</strong></p>
+  <p><strong>B站综合插件</strong></p>
+  <p>Bilibili Utility Suite</p>
   <p>面向萌卡 NT 框架的 Bilibili 综合功能插件</p>
   <p>跨平台 WebUI · 多 QQ 独立授权与数据空间 · 本地图片渲染 · 签名在线更新</p>
 
@@ -24,7 +25,7 @@
 
 ## 项目简介
 
-Bilibili Utility Suite（B站综合插件）通过萌卡 NT 的正向 WebSocket 接收机器人事件，为群聊和私聊提供 Bilibili 查询、订阅、解析与通知能力。Windows 和 Linux 版本共用同一套 Web 管理界面，所有主要配置都可以在浏览器中完成。
+B站综合插件（Bilibili Utility Suite）通过萌卡 NT 的正向 WebSocket 接收机器人事件，为群聊和私聊提供 Bilibili 查询、订阅、解析与通知能力。Windows 和 Linux 版本共用同一套 Web 管理界面，所有主要配置都可以在浏览器中完成。
 
 插件遵循宿主能力，仅发送**文字与图片消息**，不依赖 Markdown。动态、视频和直播间等内容可使用本地渲染的图片卡片展示，文字模式同样会保留有用的封面或动态图片。
 
