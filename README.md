@@ -1,20 +1,21 @@
 <div align="center">
-  <img src="bilibili-suite-cover.png" width="100%" alt="B站综合插件" />
+  <img src="bilibili-suite-cover.png" width="100%" alt="Bilibili Utility Suite（B站综合插件）" />
 
   <p>
-    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/下载-Gitee%20Releases-6C5CE7?style=flat-square" alt="Gitee Releases" /></a>
+    <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest"><img src="https://img.shields.io/badge/下载-GitHub%20Releases-6C5CE7?style=flat-square" alt="GitHub Releases" /></a>
     <img src="https://img.shields.io/badge/平台-Windows%20%7C%20Linux-2684FF?style=flat-square" alt="Windows 与 Linux" />
     <img src="https://img.shields.io/badge/架构-x86__64-00A884?style=flat-square" alt="x86_64" />
     <img src="https://img.shields.io/badge/消息-文字%20%2B%20图片-F59E0B?style=flat-square" alt="文字与图片消息" />
   </p>
 
-  <p><strong>面向萌卡 NT 框架的 Bilibili 综合功能插件</strong></p>
+  <p><strong>Bilibili Utility Suite（B站综合插件）</strong></p>
+  <p>面向萌卡 NT 框架的 Bilibili 综合功能插件</p>
   <p>跨平台 WebUI · 多 QQ 独立授权与数据空间 · 本地图片渲染 · 签名在线更新</p>
 
   <p>
-    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest">下载最新版</a>
-    · <a href="https://gitee.com/carlor-official/BilibiliSuite/releases">版本记录</a>
-    · <a href="https://gitee.com/carlor-official/BilibiliSuite/issues">问题反馈</a>
+    <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest">下载最新版</a>
+    · <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases">版本记录</a>
+    · <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/issues">问题反馈</a>
     · <a href="README.en.md">English</a>
   </p>
 </div>
@@ -23,7 +24,7 @@
 
 ## 项目简介
 
-B站综合插件通过萌卡 NT 的正向 WebSocket 接收机器人事件，为群聊和私聊提供 Bilibili 查询、订阅、解析与通知能力。Windows 和 Linux 版本共用同一套 Web 管理界面，所有主要配置都可以在浏览器中完成。
+Bilibili Utility Suite（B站综合插件）通过萌卡 NT 的正向 WebSocket 接收机器人事件，为群聊和私聊提供 Bilibili 查询、订阅、解析与通知能力。Windows 和 Linux 版本共用同一套 Web 管理界面，所有主要配置都可以在浏览器中完成。
 
 插件遵循宿主能力，仅发送**文字与图片消息**，不依赖 Markdown。动态、视频和直播间等内容可使用本地渲染的图片卡片展示，文字模式同样会保留有用的封面或动态图片。
 
@@ -84,7 +85,7 @@ Windows 与 Linux 使用不同的二进制和更新包，请勿混用。Linux �
 
 ### 1. 下载
 
-前往 [Gitee Releases](https://gitee.com/carlor-official/BilibiliSuite/releases/latest)，下载与系统对应的压缩包。Release 中的同名 `.sig` 是在线更新使用的数字签名，请勿使用来源不明或签名不匹配的包。
+前往 [GitHub Releases](https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest)，下载与系统对应的压缩包。Release 中的同名 `.sig` 是在线更新使用的数字签名，请勿使用来源不明或签名不匹配的包。
 
 ### 2. 启动与初始化
 
@@ -185,7 +186,7 @@ WebUI 同时适用于 Windows 与 Linux，主要页面包括：
 
 ## 在线更新
 
-WebUI 右上角可以检查 Gitee 最新 Release：
+WebUI 右上角可以检查 GitHub 最新 Release：
 
 1. 只在远端版本高于当前版本时显示更新；
 2. Windows 与 Linux 自动选择各自的 x86_64 包；
@@ -225,8 +226,8 @@ WebUI 右上角可以检查 Gitee 最新 Release：
 
 ## 版本与反馈
 
-- 更新记录与下载：[Gitee Releases](https://gitee.com/carlor-official/BilibiliSuite/releases)
+- 更新记录与下载：[GitHub Releases](https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases)
 - 历史更新日志与后续发布格式：[发行说明规范](docs/release-notes/README.md)
-- Bug 与建议：[提交 Issue](https://gitee.com/carlor-official/BilibiliSuite/issues)
+- Bug 与建议：[提交 Issue](https://github.com/CarlorOfficial/Bilibili-Utility-Suite/issues)
 
 本仓库当前不提供插件核心源码或开源许可。请仅从本仓库 Release 获取正式外发包。

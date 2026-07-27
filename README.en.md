@@ -1,21 +1,22 @@
 <div align="center">
-  <img src="bilibili-suite-cover.png" width="100%" alt="Bilibili Suite" />
+  <img src="bilibili-suite-cover.png" width="100%" alt="Bilibili Utility Suite" />
 
   <p>
-    <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest"><img src="https://img.shields.io/badge/download-Gitee%20Releases-6C5CE7?style=flat-square" alt="Gitee Releases" /></a>
+    <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest"><img src="https://img.shields.io/badge/download-GitHub%20Releases-6C5CE7?style=flat-square" alt="GitHub Releases" /></a>
     <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux-2684FF?style=flat-square" alt="Windows and Linux" />
     <img src="https://img.shields.io/badge/architecture-x86__64-00A884?style=flat-square" alt="x86_64" />
   </p>
 
-  <p><strong>A cross-platform Bilibili feature suite for MoeCard NT</strong></p>
-  <p><a href="README.md">简体中文</a> · <a href="https://gitee.com/carlor-official/BilibiliSuite/releases/latest">Download</a> · <a href="https://gitee.com/carlor-official/BilibiliSuite/issues">Issues</a></p>
+  <p><strong>Bilibili Utility Suite</strong></p>
+  <p>A cross-platform Bilibili feature suite for MoeCard NT</p>
+  <p><a href="README.md">简体中文</a> · <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest">Download</a> · <a href="https://github.com/CarlorOfficial/Bilibili-Utility-Suite/issues">Issues</a></p>
 </div>
 
 ---
 
 ## Overview
 
-Bilibili Suite connects to MoeCard NT through a forward WebSocket service and provides Bilibili queries, subscriptions, link parsing, notifications, and locally rendered image cards for group and private chats.
+Bilibili Utility Suite connects to MoeCard NT through a forward WebSocket service and provides Bilibili queries, subscriptions, link parsing, notifications, and locally rendered image cards for group and private chats.
 
 Windows and Linux share the same browser-based administration UI. The plugin sends plain text and image messages only and does not depend on Markdown support.
 
@@ -44,7 +45,7 @@ Windows and Linux packages are not interchangeable.
 
 ## Quick Start
 
-1. Download the package for your platform from [Gitee Releases](https://gitee.com/carlor-official/BilibiliSuite/releases/latest).
+1. Download the package for your platform from [GitHub Releases](https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases/latest).
 2. On Windows, extract the ZIP and run `BilibiliSuite.exe`. On Linux, extract the archive and run `sudo ./install.sh`.
 3. Complete the first-run WebUI port and management-token setup. The default port is `18080`.
 4. Open the displayed WebUI address and configure the MoeCard NT host, port, and framework token.
@@ -65,7 +66,7 @@ The WebUI provides 18 templates for live notifications and summaries, live event
 
 ## Signed Updates
 
-The WebUI checks the latest Gitee Release and offers an update only when the remote version is newer. Platform-specific packages and their `.sig` files are downloaded together and installed only after signature verification succeeds.
+The WebUI checks the latest GitHub Release and offers an update only when the remote version is newer. Platform-specific packages and their `.sig` files are downloaded together and installed only after signature verification succeeds.
 
 ## Security Notice
 
@@ -73,7 +74,7 @@ Release packages contain signed binaries, runtime libraries, and documentation o
 
 ## Support
 
-- Downloads and changelog: [Releases](https://gitee.com/carlor-official/BilibiliSuite/releases)
-- Bug reports and suggestions: [Issues](https://gitee.com/carlor-official/BilibiliSuite/issues)
+- Downloads and changelog: [Releases](https://github.com/CarlorOfficial/Bilibili-Utility-Suite/releases)
+- Bug reports and suggestions: [Issues](https://github.com/CarlorOfficial/Bilibili-Utility-Suite/issues)
 
 No open-source license is currently granted for the plugin's core implementation. Download official packages only from this repository's Releases page.

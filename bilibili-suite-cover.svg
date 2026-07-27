@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
-  <title id="title">B站综合插件</title>
+  <title id="title">Bilibili Utility Suite（B站综合插件）</title>
   <desc id="description">萌卡 NT 跨平台 Bilibili 综合功能插件，支持 Windows、Linux 与 WebUI。</desc>
 
   <defs>
@@ -61,7 +61,7 @@
   </g>
 
   <text x="600" y="158" text-anchor="middle" dominant-baseline="middle" fill="#FFFFFF"
-        font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="42" font-weight="700">B站综合插件</text>
+        font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="42" font-weight="700">Bilibili Utility Suite</text>
   <text x="600" y="202" text-anchor="middle" dominant-baseline="middle" fill="#C7CFEA"
         font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18">萌卡 NT · 跨平台 Bilibili 综合功能套件</text>
 
